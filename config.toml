@@ -1,0 +1,38 @@
+base_url = "https://ashyard.com"
+title = "ashyard"
+description = "A forge for small projects"
+compile_sass = true
+generate_feeds = true
+author = "Imad Jerra"
+theme = "terminus"
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+render_emoji = true
+bottom_footnotes = true
+github_alerts = true
+
+[markdown.highlighting]
+style = "inline"
+theme = "monokai"
+
+[extra]
+favicon_emoji = "🔥"
+layout = "center"
+color_scheme = "terminus"
+katex = true
+copy_button = true
+show_default_author = false
+
+main_menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "tags", url = "tags", trailing_slash = true },
+    { name = "github", url = "https://github.com/smartshader/ashyard", new_tab = true },
+]
+
+socials = [
+    { name = "github", url = "https://github.com/smartshader/ashyard" },
+]
